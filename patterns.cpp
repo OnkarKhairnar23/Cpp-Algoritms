@@ -12,9 +12,6 @@ using namespace std;
 **
 *
 
-
-#include <iostream>
-using namespace std;
 int main(){
     for (int i=1; i<10; i++){
         if (i<=5){
@@ -42,8 +39,7 @@ int main(){
    * * *
     * *
      *
-#include <iostream>
-using namespace std;
+
 int main(){
     for (int i = 1; i <= 11; i++)
     {
@@ -76,9 +72,7 @@ int main(){
 
 }
 ANS-
-#include <iostream>
-#include<cmath>
-using namespace std;
+
 int main()
 {
   cout<<"Enter the row size:";
@@ -101,8 +95,7 @@ int main()
   *   *
  *     *
 *       *
-#include <iostream>
-using namespace std;
+
 int main()
 {
     for (int i = 0; i < 5; i++)
@@ -131,8 +124,7 @@ int main()
   *****
  *******
 *********
-#include <iostream>
-using namespace std;
+
 int main(){
     for (int i = 0; i < 5; i++)
     {
@@ -155,8 +147,7 @@ int main(){
   *****
    ***
     *
-#include <iostream>
-using namespace std;
+
 int main(){
     for (int i = 0; i < 5; i++)
     {
@@ -185,8 +176,7 @@ int main(){
    ***
     **
      *
-#include <iostream>
-using namespace std;
+
 int main(){
     for (int i = 1; i < 12; i++)
     {
@@ -225,8 +215,7 @@ int main(){
   *   *   
    * *    
     *
-#include <iostream>
-using namespace std;
+
 int main()
 {
     for (int i = 0; i < 5; i++)
@@ -260,9 +249,7 @@ int main()
   * *
    *
 
-#include <iostream>
-#include<cmath>
-using namespace std;
+
 int main(){
     for (int i = 3; i >= -3; i--)
     {
@@ -290,9 +277,6 @@ int main(){
 *       *
 
 
-#include <iostream>
-#include<cmath>
-using namespace std;
 
 void invtri(int size){
       int a;
@@ -333,9 +317,6 @@ int main(){
  7654321
 987654321
 
-#include <iostream>
-#include<cmath>
-using namespace std;
 
 void func(int size){
         for (int i = 1; i <= size; i++)
@@ -367,9 +348,6 @@ int main(){
 89 144 233 377 610
 
 //0112358
-#include <iostream>
-#include<cmath>
-using namespace std;
 
 int fibo(int count){
     if (count==0)
@@ -402,11 +380,6 @@ int main(){
     print(size);
 }
 
-
-
-#include <iostream>
-#include<cmath>
-using namespace std;
 
 // AAAAA
 // BBBBB
