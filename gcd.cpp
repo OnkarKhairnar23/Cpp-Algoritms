@@ -2,13 +2,12 @@
 using namespace std;
 
 int gcd(int a,int b){
-    if(b>a)
-        swap(a,b);
     if(b==a)
         return b;
-    if(a<=1)
-        return 1;
-    return gcd(a-b,b);
+    if(a>b)
+        return gcd(a-b,b);
+    else 
+        return gcd(a,b-a);
 }
 
 int main()
